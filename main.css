@@ -28,12 +28,20 @@
 .nav img {
 	width: 50px;
 	height: 50px;
+	color: black;
 }
 
 .hyperlinks a {
 	color: black;
 	text-decoration-line: none;
 	margin-left: 2vw;
+	padding: 0 5px 0 5px;
+}
+
+.hyperlinks a:hover {
+	color: wheat;
+	border-radius: 5px;
+	border: 1px solid wheat;
 }
 
 .spacer {
